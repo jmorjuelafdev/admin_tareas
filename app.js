@@ -15,7 +15,7 @@ taskForm.addEventListener("submit", (event) => {
 
 function createTaskElement(taskText) {
   const li = document.createElement("li");
-
+// Crear tareas
   const spanText = document.createElement("span");
   spanText.textContent = taskText;
   spanText.className = "task-text";
